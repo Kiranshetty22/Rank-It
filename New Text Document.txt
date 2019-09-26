@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream.h>
 using namespace std;
  
 int binary(int a[],int low,int high,int x)

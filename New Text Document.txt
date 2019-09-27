@@ -4,7 +4,8 @@ using namespace std;
 int binary(int a[],int low,int high,int x)
 {
 while(low<=high)
-    {int mid=(low+high)/2;
+    {
+    int mid=(low+high)/2;
     if(a[mid]==x){return mid+1;
     }
     else if(x<a[mid])
